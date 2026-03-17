@@ -10,7 +10,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/posts")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://nibir-medimate-ai.netlify.app")
 public class PostController {
 
     private final PostService postService;

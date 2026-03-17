@@ -13,7 +13,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/admin")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:*")
+@CrossOrigin(origins = "https://nibir-medimate-ai.netlify.app")
 public class AdminController {
 
     private final UserRepository userRepository;
